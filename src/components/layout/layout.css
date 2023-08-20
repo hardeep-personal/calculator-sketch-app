@@ -8,10 +8,14 @@
 }
 
 .main-calc-container {
-  
+
     background-color: #99c089;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.d-flex {
+    display: flex;
 }
