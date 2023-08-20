@@ -28,7 +28,7 @@ const orange = '#f3a551';
             <div className="mainCalc">
                 <Screen answer={answer} />
                
-                <div className="button-row">
+                <div className="button-row d-flex">
                     <Button label={"7"} handleClick={handleClick}
                     />
                     <Button label={"8"} handleClick={handleClick}
@@ -38,7 +38,7 @@ const orange = '#f3a551';
                     <Button label={"/"} handleClick={handleClick}
                     />
                 </div>
-                <div className="button-row">
+                <div className="button-row d-flex">
                     <Button label={"4"} handleClick={handleClick}
                     />
                     <Button label={"5"} handleClick={handleClick}
@@ -49,7 +49,7 @@ const orange = '#f3a551';
                     <Button label={"*"} handleClick={handleClick}
                     />
                 </div>
-                <div className="button-row">
+                <div className="button-row d-flex">
                     <Button label={"1"} handleClick={handleClick}
                     />
                     <Button label={"2"} handleClick={handleClick}
@@ -60,7 +60,7 @@ const orange = '#f3a551';
                     />
 
                 </div>
-                <div className="button-row">
+                <div className="button-row d-flex">
                     <Button label={"0"} handleClick={handleClick}
                     /> 
                     <Button label={"."} handleClick={handleClick}
